@@ -1,5 +1,5 @@
 ## Welcome to LEANABLER
-> Lean it better, lean it faster, lean it forever!
+> Lean it better, lean it faster!
  
 ### Missions
 * To develop a sustainable learning ecosystem that enables SME manufacturers to enhance their employees' skills in productivity improvement.
