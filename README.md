@@ -40,9 +40,10 @@
 - Toyota Production System - offered by Technology Promotion Association (TPA)(Thailand-Japan)
 - Lean Automation System Integrators (LASI) - offered by Denso and Thai-German Institute (TGI)
 
-#### Learning
+#### Currently Learning
 - Web Design for Everybody - offered by University of Michigan
 - Web Applications for Everybody - offered by University of Michigan
+
 ### Userful Links
 [[Coursera - UM Alumni]](https://www.coursera.org/programs/university-of-michigan-alumni-y5q69)
 [[W3Schools]](https://www.w3schools.com)
