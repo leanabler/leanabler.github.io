@@ -43,3 +43,9 @@
 #### Learning
 - Web Design for Everybody - offered by University of Michigan
 - Web Applications for Everybody - offered by University of Michigan
+### Userful Links
+[[Coursera - UM Alumni]](https://www.coursera.org/programs/university-of-michigan-alumni-y5q69)
+[[W3Schools]](https://www.w3schools.com)
+[[Learn to Code HTML & CSS]](https://learn.shayhowe.com)
+[[GitHub]](https://github.com)
+[[W3C - Markup Validator]](https://validator.w3.org)
