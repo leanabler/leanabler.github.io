@@ -1,5 +1,5 @@
 ## Welcome to LEANABLER
-> Lean for everyone
+> Lean it better, lean it faster!
 
 You can use the [editor on GitHub](https://github.com/leanabler/leanabler.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
