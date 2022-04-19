@@ -1,4 +1,2 @@
 ## Welcome to LEANABLER
-> On the journey of digital lean
-
-You can view my journey at https://leanabler.github.io/html
+> [On the journey of digital lean](https://leanabler.github.io/html)
