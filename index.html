@@ -12,10 +12,12 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-
         <!-- Core theme CSS (includes Bootstrap) -->
         <link href="css/styles.css" rel="stylesheet"/>
+        <!-- ========================================================== -->
+        <!-- (#1#) Add my own stylesheet in addition to the downloaded template stylesheet. -->
         <link href="css/myStyles.css" rel="stylesheet"/>
+        <!-- ========================================================== -->
     </head>
     <body id="page-top">
 
@@ -48,7 +50,10 @@
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         Lean
+                        <!-- ========================================================== -->
+                        <!-- (#2#) Override margin of template style with negative margin so that two words are right next to each other. -->
                         <span class="text-primary" style="margin:-0.15em;">Abler</span>
+                        <!-- ========================================================== -->
                     </h1>
                     <div class="subheading mb-5">
                         On the journey of digital lean ...
@@ -79,7 +84,10 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
 
+                    <!-- ========================================================== -->
+                    <!-- (#3#) Override some styles in template stylesheet with my own styles. -->
                     <div class="d-flex flex-column flex-md-row justify-content-between myBr2">
+                    <!-- ========================================================== -->
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Project Leader</h3>
                             <div class="subheading">Design and Development of Digital Lean Learning Factory</div>
@@ -315,7 +323,10 @@
                     <h2 class="mb-5">Hobbies</h2>
 
                     <div class="myThumbContainer">
+                        <!-- ========================================================== -->
+                        <!-- (#4#) Insert onclick event with my own function that takes 3 parameters, including "this" keyword. -->
                         <div class="myThumb myThumbSeen" onclick="loadImage('assets/img/guitar01.jpg','myImageContainer01',this)">G</div>
+                        <!-- ========================================================== -->
                         <div class="myThumb" onclick="loadImage('assets/img/guitar02.jpg','myImageContainer01',this)">u</div>
                         <div class="myThumb" onclick="loadImage('assets/img/guitar03.jpg','myImageContainer01',this)">i</div>
                         <div class="myThumb" onclick="loadImage('assets/img/guitar04.jpg','myImageContainer01',this)">t</div>
@@ -349,9 +360,12 @@
                         <a href="mailto:tonytanakorn@gmail.com">tonytanakorn@gmail.com</a><br>
                     </p>
 
+                    <!-- ========================================================== -->
+                    <!-- (#5#) Add google map plug-in. Width is changed from px to % and height is removed (it takes value from JS instead!) -->
                     <div id="mapDiv">
                         <iframe id="mapFrm" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.9896015911036!2d100.59912441534884!3d14.077791093447097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e27f945ff7f713%3A0xa05f682498545ab0!2sNational%20Electronics%20and%20Computer%20Technology%20Center%20(NECTEC)!5e0!3m2!1sen!2sth!4v1650363700086!5m2!1sen!2sth" style="border:0; width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <!-- ========================================================== -->
                 </div>
             </section>
         </div>
@@ -365,8 +379,10 @@
         <!-- Jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-        <!-- My own JS - Need to be at botoom to get correct map size -->
+        <!-- ========================================================== -->
+        <!-- (#6#) Add my own JS. This JS call needs to be at botoom of the page to get correct map size. -->
         <script src="js/myScripts.js"></script>
+        <!-- ========================================================== -->
 
     </body>
 </html>
