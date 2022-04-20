@@ -1,5 +1,9 @@
 /*---------------------------------------------------------------*/
-/* Define (overide existing) variables */
+/* (#7#) Override the existing theme color variable.
+The targeted variable to be overridden was investigated in 
+downloded bootstrap template css file and used to assign the
+new value here. */
+/*---------------------------------------------------------------*/
 
 :root{
 	--bs-primary-rgb: 125,64,72;
@@ -7,7 +11,9 @@
 }
 
 /*---------------------------------------------------------------*/
-/* Override existing properties */
+/* (#8#) Override existing styles defined in downloaded bootstrap
+template css file. */
+/*---------------------------------------------------------------*/
 
 a{
 	color: rgb(var(--bs-primary-rgb));
@@ -19,7 +25,10 @@ a:hover{
 }
 
 /*---------------------------------------------------------------*/
-/* My properties */
+/* (#9#) Create my own styles.
+The following styles are defined for image containers and
+map iframe. "Transition" and related attributes are set. */
+/*---------------------------------------------------------------*/
 
 .myBr1{
 	margin-bottom: 0.4rem;
@@ -48,6 +57,11 @@ a:hover{
 	color: #FFFFFF;
 	transition-duration: 1s;
 }
+
+/*---------------------------------------------------------------*/
+/*(#10#) rotate3d is used to animate flipped thumbs when
+hovering over them. */
+/*---------------------------------------------------------------*/
 
 .myThumb:hover{
 	transform: rotate3d(0,1,0,0.5turn);
