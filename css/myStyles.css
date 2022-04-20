@@ -1,0 +1,65 @@
+/*---------------------------------------------------------------*/
+/* Define (overide existing) variables */
+
+:root{
+	--bs-primary-rgb: 125,64,72;
+	--bs-primary-rgb: 37,93,184;
+}
+
+/*---------------------------------------------------------------*/
+/* Override existing properties */
+
+a{
+	color: rgb(var(--bs-primary-rgb));
+}
+
+a:hover{
+	color: rgb(var(--bs-primary-rgb));
+	filter: saturate(200%);
+}
+
+/*---------------------------------------------------------------*/
+/* My properties */
+
+.myBr1{
+	margin-bottom: 0.4rem;
+}
+
+.myBr2{
+	margin-bottom: 2rem;
+	padding: 0px;
+}
+
+.myThumbContainer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.myThumb{
+	margin: 1rem 0.4rem;
+	width: 3rem;
+	height: 4rem;
+	line-height: 4rem;
+	border-radius: 0.5rem;
+	background-color: #6C757D;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	transition-duration: 1s;
+}
+
+.myThumb:hover{
+	transform: rotate3d(0,1,0,0.5turn);
+	background-color: rgb(var(--bs-primary-rgb));
+}
+
+.myThumbSeen{
+	background-color: rgb(var(--bs-primary-rgb));
+}
+
+.myImgContainer{
+	width: 100%;
+	transition-duration: 1s;
+	transition-property: background-image;
+}
