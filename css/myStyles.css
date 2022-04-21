@@ -15,13 +15,19 @@ new value here. */
 template css file. */
 /*---------------------------------------------------------------*/
 
-a{
+.resume-section a{
 	color: rgb(var(--bs-primary-rgb));
 }
 
-a:hover{
+.resume-section a:hover{
 	color: rgb(var(--bs-primary-rgb));
 	filter: saturate(200%);
+}
+
+.social-icons .social-icon:hover{
+	color: #FFFFFF;
+	background-color: rgb(var(--bs-primary-rgb));
+	filter:  saturate(100%);
 }
 
 /*---------------------------------------------------------------*/
