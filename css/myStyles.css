@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------*/
-/* (#7#) Override the existing theme color variable.
+/* Override the existing theme color variable.
 The targeted variable to be overridden was investigated in 
 downloded bootstrap template css file and used to assign the
 new value here. */
@@ -11,7 +11,7 @@ new value here. */
 }
 
 /*---------------------------------------------------------------*/
-/* (#8#) Override existing styles defined in downloaded bootstrap
+/* Override existing styles defined in downloaded bootstrap
 template css file. */
 /*---------------------------------------------------------------*/
 
@@ -31,7 +31,7 @@ template css file. */
 }
 
 /*---------------------------------------------------------------*/
-/* (#9#) Create my own styles.
+/* Create my own styles.
 The following styles are defined for image containers and
 map iframe. "Transition" and related attributes are set. */
 /*---------------------------------------------------------------*/
@@ -65,7 +65,7 @@ map iframe. "Transition" and related attributes are set. */
 }
 
 /*---------------------------------------------------------------*/
-/*(#10#) rotate3d is used to animate flipped thumbs when
+/* rotate3d is used to animate flipped thumbs when
 hovering over them. */
 /*---------------------------------------------------------------*/
 
