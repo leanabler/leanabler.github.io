@@ -1,5 +1,5 @@
 // ----------------------------------------------------------------
-// (#11#) This function calculates appropriate map height from
+// This function calculates appropriate map height from
 // given viewport width and map width.
 // ----------------------------------------------------------------
 function calcMapHeight(vWidth,mWidth){
@@ -20,10 +20,10 @@ function calcMapHeight(vWidth,mWidth){
 }
 
 // ----------------------------------------------------------------
-// (#12#) This function loads specified image to specified
+// This function loads specified image to specified
 // container and changes background color of clicked thumb.
 // ----------------------------------------------------------------
-// (#13#) It uses a primary color stored in a variable defined
+// It uses a primary color stored in a variable defined
 // in myStyles.css file.
 // ----------------------------------------------------------------
 function loadImage(imgSrcPath,imgContainerId,thumbTag){
@@ -32,6 +32,12 @@ function loadImage(imgSrcPath,imgContainerId,thumbTag){
   document.getElementById(imgContainerId).style.backgroundImage = imgUrl;
   thumbTag.style.backgroundColor = 'rgb(var(--bs-primary-rgb))';
 
+}
+
+function loadAppTitle(appTitleId,appTitle,url,thumbTag){
+  thumbTag.style.backgroundColor = 'rgb(var(--bs-primary-rgb))';
+  document.getElementById(appTitleId).innerHTML = appTitle;
+  document.getElementById(appTitleId).setAttribute('href',url);
 }
 
 // ----------------------------------------------------------------
@@ -46,7 +52,7 @@ var newImgHeight;
 vpWidth = window.innerWidth;
 
 // ----------------------------------------------------------------
-// (#14#) Calculate and set initial appropriate heights.
+// Calculate and set initial appropriate heights.
 // Jquery is used to get the rendered widths of map iframe
 // and image container to calculate and set appropriate values
 // of heights
@@ -61,7 +67,7 @@ newImgHeight = calcMapHeight(vpWidth,imgWidth);
 $(".myImgContainer").css('height', newImgHeight);
 
 // ----------------------------------------------------------------
-// (#15) Listen to window resize event.
+// Listen to window resize event.
 // Event listener is added to window so that it reads the
 // following codes every time when the window is resized.
 // The purpose is to adjust the heights of iframe map and
@@ -83,4 +89,15 @@ $(window).resize(function() {
   newImgHeight = calcMapHeight(vpWidth,imgWidth);
   $(".myImgContainer").css('height', newImgHeight);
 
+  if ($('#navbarResponsive').is(":visible")){
+    // console.log('nav status: visible');
+    $("#appTitleContainer").css('max-width', 833);
+  } else {
+    // console.log('nav status: invisible');
+    $("#appTitleContainer").css('max-width', 938);
+  }
+  // console.log('imgWidth' + imgWidth);
+  // console.log('titleWidth' + $("#appTitleContainer").css('width'));
+  
 });
+
