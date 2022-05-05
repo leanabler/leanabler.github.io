@@ -37,7 +37,14 @@ function loadImage(imgSrcPath,imgContainerId,thumbTag){
 function loadAppTitle(appTitleId,appTitle,url,thumbTag){
   thumbTag.style.backgroundColor = 'rgb(var(--bs-primary-rgb))';
   document.getElementById(appTitleId).innerHTML = appTitle;
-  document.getElementById(appTitleId).setAttribute('href',url);
+  if (url.length>0){
+    document.getElementById(appTitleId).setAttribute('target','_blank');
+    document.getElementById(appTitleId).setAttribute('href',url);
+  } else {
+    document.getElementById(appTitleId).setAttribute('target','_top');
+    document.getElementById(appTitleId).setAttribute('href','javascript:void(0)');
+  }
+  
 }
 
 // ----------------------------------------------------------------
